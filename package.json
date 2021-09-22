@@ -1,0 +1,9 @@
+{
+  "name": "digital-twin-low-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "",
+  "scripts": {
+    "start:db": "docker-compose -f docker-compose-backend-dev.yml  up -d"
+  }
+}
